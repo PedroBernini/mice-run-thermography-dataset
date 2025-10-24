@@ -1,0 +1,69 @@
+# --- Python padrão ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+.env
+.venv
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- Data (arquivos grandes e backups) ---
+data/**/*.mp4
+data/**/*.avi
+data/**/*.zip
+data/**/*.rar
+data/**/*.7z
+
+# --- Jupyter Notebook ---
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+*.ipynb_checkpoints/*.ipynb
+
+# --- Logs e temporários ---
+*.log
+*.tmp
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+
+# --- Datasets grandes ---
+*.tar.gz
+*.h5
+*.npy
+*.npz
+*.pkl
+*.csv.zip
+*.parquet
+
+# --- Configs locais ---
+.idea/
+.vscode/
+*.code-workspace
+
+# --- Checkpoints e modelos ---
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.h5
